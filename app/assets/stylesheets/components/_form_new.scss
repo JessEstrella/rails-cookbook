@@ -1,0 +1,20 @@
+.form-new {
+    background-color: pink;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: solid 1px #d0cccc;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full screen height */
+  background-color: #f4f4f4; /* Optional: light background */
+}

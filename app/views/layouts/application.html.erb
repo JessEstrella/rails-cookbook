@@ -11,6 +11,38 @@
   </head>
 
   <body>
+
+    <div class="navbar navbar-expand-sm navbar-light navbar-cookbook">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://media.istockphoto.com/id/1687829806/vector/open-book-with-chef-hat-above.jpg?s=612x612&w=0&k=20&c=8MHkogOT9EXeKoaTYap_WFrBtUmcKgstkBOv07GOh18=" />
+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <%=  link_to "Home", categories_path, class: 'btn' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'New Categories', new_category_path, class: "btn" %> 
+    </div>
+          <!--li class="nav-item"-->
+          <!--/li-->
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
     <%= yield %>
   </body>
+
+
 </html>

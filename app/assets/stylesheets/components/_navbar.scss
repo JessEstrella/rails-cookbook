@@ -1,0 +1,12 @@
+.navbar-cookbook {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-cookbook .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-cookbook .navbar-brand img {
+  width: 40px;
+}
